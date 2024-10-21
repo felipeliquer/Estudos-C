@@ -1,0 +1,11 @@
+using System;
+
+class Program {
+  public static void Main(string[] args) {
+    int idade = 40;
+    string nome = "Luiz Felipe";
+    Console.WriteLine("Meu nome é "+nome+" e tenho "+idade+" anos de idade.");
+    Console.WriteLine("Meu nome é {0} e tenho {1} anos de idade.", nome, idade);
+    Console.WriteLine($"Meu nome é {nome} e tenho {idade} anos de idade.");
+  } 
+}
