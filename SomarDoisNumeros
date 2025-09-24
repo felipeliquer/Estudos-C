@@ -1,0 +1,22 @@
+using System;
+
+class SomarDoisNumeros {
+  public static void Main (string[] args) {
+    //Declaração de variáveis
+    int num1, num2, soma;
+
+    //Leitura do primeiro número
+    Console.WriteLine("Digite um número:");
+    num1 = int.Parse(Console.ReadLine());
+
+    //Leitura do segundo número
+    Console.WriteLine("Digite outro número:");
+    num2 = int.Parse(Console.ReadLine());
+
+    //Somar
+    soma = num1 + num2;
+
+    //Imprimir resultado na tela
+    Console.WriteLine("Soma: " + soma);
+  }
+}
