@@ -1,11 +1,19 @@
 string nome = "Luiz";
-int menssagem = 3;
+int mensagem = 3;
 decimal temperatura = 20.4m;
 
 Console.Write("Olá, ");
 Console.Write(nome);
 Console.Write("! Você tem ");
-Console.Write(menssagem);
+Console.Write(mensagem);
 Console.Write(" mensagens no seu inbox. A temperatura atual é de ");
 Console.Write(temperatura);
 Console.Write(" celsius.");
+
+
+
+string nome = "Luiz";
+int mensagens = 3;
+decimal temperatura = 20.4m;
+
+Console.WriteLine($"Olá, {nome}! Você tem {mensagens} mensagens no seu inbox. A temperatura atual é de {temperatura} celsius.");
